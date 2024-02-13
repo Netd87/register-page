@@ -1,0 +1,29 @@
+body {
+  background-image: url(images/dark-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-div {
+  padding: 200px 150px;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  border: 5px outset black;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.btn1 {
+  background-color: red;
+  color: white;
+ padding: 25px 32px;
+ top: 40%;
+}
+
+.btn2 {
+  background-color: green;
+  color: white;
+ padding: 25px 35px;
+ top: 20%;
+}
