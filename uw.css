@@ -1,29 +1,145 @@
 body {
-  background-image: url(images/dark-bg.jpg);
+  background-image: url(images/sunset.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .main-div {
-  padding: 200px 150px;
+  height: 485px;
+  width: 495px;
   position: absolute;
   top: 10%;
-  left: 30%;
-  border: 5px outset black;
+  left: 30.4%;
+  border: 1px solid black;
+  border-radius: 10px;
+  opacity: 0.5;
   background-color: lightgray;
+}
+
+.username-field {
+  background-color: white;
+  opacity: 0.9;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  height: 35px;
+  width: 175px;
+  position: absolute;
+  top: 35%;
+  left: 42.5%;
+  border: 1px solid black;
+  border-radius: 3px;
+  transition: opacity 0.1s;
+}
+
+.username-field:hover {
+  opacity: 0.8;
+}
+
+.username-field:active {
+  opacity: 0.9;
+}
+
+.password-field {
+  background-color: white;
+  opacity: 0.9;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  height: 35px;
+  width: 175px;
+  position: absolute;
+  top: 44%;
+  left: 42.5%;
+  border: 1px solid black;
+  border-radius: 3px;
+  transition: opacity 0.1s;
+}
+
+.password-field:hover {
+  opacity: 0.8;
+}
+
+.password-field:active {
+  opacity: 0.9;
+}
+
+.submit-button {
+  background-color: rgb(255, 100, 0);
+  color: white;
+  font-size:large;
   text-align: center;
+  height: 35px;
+  width: 75px;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: absolute;
+  top: 54%;
+  left: 43.3%;
+  cursor: pointer;
+  transition: background-color 0.15s;
 }
 
-.btn1 {
-  background-color: red;
-  color: white;
- padding: 25px 32px;
- top: 40%;
+.submit-button:hover {
+  background-color: rgb(248, 151, 24);
 }
 
-.btn2 {
-  background-color: green;
+.signup-text-1 {
   color: white;
- padding: 25px 35px;
- top: 20%;
+  opacity: 0.7;
+  position: absolute;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: bolder;
+  top: 13%;
+  left: 44.3%;
+  cursor: default;
+  font-weight: bold;
+  font-family: rockwell;
+}
+
+.login-text-1 {
+  color: blue;
+  font-size:small;
+  text-decoration: underline;
+  position: absolute;
+  top: 53.7%;
+  left: 51%;
+  cursor: pointer;
+  transition: opacity 0.1s;
+  font-family: rockwell;
+}
+
+.login-text-1:hover {
+  opacity: 0.8;
+}
+
+.signup-text-2 {
+  color: blue;
+  font-size:small;
+  text-decoration: underline;
+  position: absolute;
+  top: 53.7%;
+  left: 50.6%;
+  cursor: pointer;
+  transition: opacity 0.1s;
+  font-family: rockwell;
+}
+
+.signup-text-2:hover {
+  opacity: 0.8;
+}
+
+.login-text-2 {
+  color: white;
+  opacity: 0.7;
+  position: absolute;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: bolder;
+  top: 13%;
+  left: 44.9%;
+  cursor: default;
+  font-weight: bold;
+  font-family: rockwell;
 }
